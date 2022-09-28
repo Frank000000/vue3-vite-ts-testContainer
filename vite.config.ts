@@ -8,13 +8,13 @@ import path from 'path';
 export default defineConfig({
   plugins: [
     vue(),
-    styleImport({
-      libs: [{
-        libraryName: 'vant',
-        esModule: true,
-        resolveStyle: (name) => `vant/es/${name}/style/index`,
-      }, ],
-    }),
+    // styleImport({
+    //   libs: [{
+    //     libraryName: 'vant',
+    //     esModule: true,
+    //     resolveStyle: (name) => `vant/es/${name}/style/index`,
+    //   }, ],
+    // }),
   ],
   base:"./",//打包路径
   resolve: {
