@@ -2,9 +2,9 @@
   <div>详情页</div>
   <van-button type="primary" @click="refreshPage">刷新</van-button>
   <test-component></test-component>
-  <!-- <div class="card">
+  <div class="card">
     Magic Card
-  </div> -->
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -97,4 +97,5 @@ a {
   font-weight: bold;
   margin-top: 2rem;
 }
+
 </style>
