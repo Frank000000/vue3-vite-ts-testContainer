@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 @click="yy">{{ msg }}</h1>
   <h3>{{parentNum}}</h3>
   <van-button type="primary" @click="count++">count is: {{ count }}</van-button>
   <div class="container">
@@ -36,6 +36,9 @@
       type: Number
     }
   })
+  const yy=()=>{
+    console.log(123);
+  }
   const msg = ref('helloWorld')
   const checked = ref('1')
   let heheda = ref(0)

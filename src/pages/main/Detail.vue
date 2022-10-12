@@ -1,7 +1,10 @@
 <template>
   <div>详情页</div>
-  <van-button type="primary" @click="refreshPage">刷新</van-button>
-  <s_button></s_button>
+  <div class="detail ">
+    <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button>
+    <s_button class="detail_btn2" @click="zzz()"></s_button>
+  </div>
+
 </template>
 
 <script setup lang="ts">
@@ -12,10 +15,24 @@ import { s_button } from 'selleri-ui'
 testJS()
 const refreshPage = () => {
   console.log('详情页');
-  location.reload();
+  // location.reload();
+  zzz()
+}
+const zzz = () => {
+  console.log(111111);
 }
 </script>
 
 <style lang="scss" scoped>
+.detail {
 
+  &_btn1 {}
+
+  &_btn2 {
+    display: block;
+
+  }
+}
+
+:deep(.btn__primary) {}
 </style>
