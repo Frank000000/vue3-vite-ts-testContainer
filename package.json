@@ -15,7 +15,7 @@
     "node-sass": "^7.0.3",
     "sass": "^1.55.0",
     "sass-loader": "^13.1.0",
-    "selleri-ui": "^1.0.7",
+    "selleri-ui": "^1.0.8",
     "vant": "^3.6.4",
     "vue": "^3.2.40",
     "vue-router": "^4.1.5",
