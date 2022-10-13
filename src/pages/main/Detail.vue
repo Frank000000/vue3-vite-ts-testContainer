@@ -3,6 +3,8 @@
   <div class="detail ">
     <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button>
     <s_button class="detail_btn2" @click="zzz()"></s_button>
+    <g-button>12123</g-button>
+    <g-input></g-input>
   </div>
 
 </template>
