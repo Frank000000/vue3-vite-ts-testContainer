@@ -1,10 +1,10 @@
 <template>
   <div>详情页</div>
   <div class="detail ">
-    <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button>
-    <s_button class="detail_btn2" @click="zzz()"></s_button>
-    <g-button>12123</g-button>
-    <g-input></g-input>
+    <!-- <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button> -->
+    <!-- <s_button class="detail_btn2" @click="zzz()"></s_button> -->
+    <!-- <g-input></g-input> -->
+    <g-button class="detail_myBtn" type="warn" disabled size="large">myButton</g-button>
   </div>
 
 </template>
@@ -33,6 +33,10 @@ const zzz = () => {
   &_btn2 {
     display: block;
 
+  }
+  &_myBtn{
+    background: red;
+    width: 100px;
   }
 }
 

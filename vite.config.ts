@@ -17,7 +17,7 @@ export default defineConfig({
   },
   server: {
     port:4000,//启动端口
-    open: true,
+    open: false,
     // open: 'index.html',
     proxy: {
       // 选项写法
