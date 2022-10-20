@@ -3,8 +3,8 @@
   <div class="detail ">
     <!-- <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button> -->
     <!-- <s_button class="detail_btn2" @click="zzz()"></s_button> -->
-    <!-- <g-input></g-input> -->
-    <g-button class="detail_myBtn" type="warn" disabled size="large">myButton</g-button>
+    <g-button class="detail_myBtn" type="warn" round disabled size="large" @click="clickMyBtn">myButton</g-button>
+    <g-input style="margin-top: 20px;"></g-input>
   </div>
 
 </template>
@@ -22,6 +22,9 @@ const refreshPage = () => {
 }
 const zzz = () => {
   console.log(111111);
+}
+const clickMyBtn=()=>{
+  console.log(123);
 }
 </script>
 

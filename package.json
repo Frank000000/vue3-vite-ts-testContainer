@@ -26,7 +26,7 @@
     "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^3.1.2",
     "expect": "^29.2.1",
-    "guld-ui": "^0.0.5",
+    "guld-ui": "^0.0.7",
     "nprogress": "^0.2.0",
     "typescript": "^4.8.4",
     "vite": "^3.1.8",
