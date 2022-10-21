@@ -4,7 +4,7 @@
     <!-- <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button> -->
     <!-- <s_button class="detail_btn2" @click="zzz()"></s_button> -->
     <g-button class="detail_myBtn" type="warn" round disabled size="large" @click="clickMyBtn">myButton</g-button>
-    <g-input style="margin-top: 20px;" type="number"></g-input>
+    <g-input style="margin-top: 20px;" type="number" :disabled="true"></g-input>
   </div>
 
 </template>
