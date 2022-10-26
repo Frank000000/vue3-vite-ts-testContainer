@@ -6,3 +6,6 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+// declare two types
+declare module 'guld-ui'
+declare module 'selleri-ui'
