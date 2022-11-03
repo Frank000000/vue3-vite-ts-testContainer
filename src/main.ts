@@ -7,6 +7,8 @@ import store from './store'
 import 'selleri-ui/dist/style.css'
 import Guld from 'guld-ui'
 import 'guld-ui/dist/style.css'
+// import ElementPlus from 'element-plus'
+// import 'element-plus/dist/index.css'
 
 
 const app =createApp(App)
