@@ -52,7 +52,6 @@ const testJS = () => {
   //   sex:'girl',
   // }
   // console.log('name==',name);
-
   
 }
 export default testJS

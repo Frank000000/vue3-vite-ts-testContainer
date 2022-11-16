@@ -12,9 +12,12 @@
 
 <script setup lang="ts">
 import testJS from "@/utils/test"
+import {isBoolean} from '../../utils'
 import { s_button } from 'selleri-ui'
 
 //测试
+console.log(isBoolean(true));
+
 testJS()
 const refreshPage = () => {
   console.log('详情页');
