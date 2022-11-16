@@ -11,14 +11,14 @@
 </template>
 
 <script setup lang="ts">
-import testJS from "@/utils/test"
-import {isBoolean} from '../../utils'
+import {isBoolean,testJs} from '../../utils'
 import { s_button } from 'selleri-ui'
 
 //测试
 console.log(isBoolean(true));
 
-testJS()
+console.log('testJs',testJs(false));
+
 const refreshPage = () => {
   console.log('详情页');
   // location.reload();
