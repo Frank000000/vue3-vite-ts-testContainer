@@ -9,6 +9,12 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    IconEpFold: typeof import('~icons/ep/fold')['default']
+    IconFaBeer: typeof import('~icons/fa/beer')['default']
+    'IconOpenmoji:foldedHands': typeof import('~icons/openmoji/folded-hands')['default']
+    IconOpenmojifoldedHands: typeof import('~icons/openmoji/folded-hands')['default']
+    IconOpenmojiFoldedHands: typeof import('~icons/openmoji/folded-hands')['default']
+    IconUiwMenuFold: typeof import('~icons/uiw/menu-fold')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
