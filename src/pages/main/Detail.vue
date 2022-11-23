@@ -1,19 +1,19 @@
 <template>
-  <div>详情页</div>
+  <div>detail</div>
   <div class="detail ">
     <!-- <van-button class="detail_btn1" type="primary" @click="refreshPage">刷新</van-button> -->
     <!-- <s_button class="detail_btn2" @click="zzz()"></s_button> -->
     <g-button class="detail_myBtn" type="warn" round disabled size="large" @click="clickMyBtn">myButton</g-button>
     <g-input style="margin-top: 20px;" type="number" :disabled="true"></g-input>
-    <el-button type="primary">Primary</el-button>
+    <el-button style="margin-top: 20px;" type="primary">Primary</el-button>
 
     <!-- unplugin-icons -->
-    <div class="unplugin-icons" style="display: flex;justify-content: space-between;margin-top: 100px;">
+    <div class="unplugin-icons" style="display: flex;justify-content: space-between;margin-top: 40px;">
       <IconEpFold />
       <icon-ep-fold />
       <icon-uiw-menu-fold></icon-uiw-menu-fold>
-      <icon-openmoji:folded-hands/>
-      <icon-fa-beer style="color: orange"/>
+      <icon-openmoji:folded-hands />
+      <icon-fa-beer style="color: orange" />
     </div>
   </div>
 
@@ -22,22 +22,29 @@
 <script setup lang="ts">
 import { isBoolean, testJs } from '../../utils'
 import { s_button } from 'selleri-ui'
+import { toArray } from 'rafi-utils'
 
-//测试
-console.log(isBoolean(true));
-
-console.log('testJs', testJs(false));
-
-const refreshPage = () => {
-  console.log('详情页');
-  // location.reload();
-  zzz()
+// test 'rafi-utils'
+const obj = {
+  name: 'rafi',
+  weight: '75kg'
 }
-const zzz = () => {
-  console.log(111111);
+console.log('toArray::', toArray(obj));
+
+
+// test
+console.log(isBoolean(true));
+console.log('testJs', testJs(false));
+const refreshPage = () => {
+  console.log('detail page');
+  // location.reload();
+  loadNum()
+}
+const loadNum = () => {
+  console.log('loadNum');
 }
 const clickMyBtn = () => {
-  console.log(123);
+  console.log('clickMyBtn');
 }
 </script>
 

@@ -12,8 +12,6 @@ declare module '@vue/runtime-core' {
     IconEpFold: typeof import('~icons/ep/fold')['default']
     IconFaBeer: typeof import('~icons/fa/beer')['default']
     'IconOpenmoji:foldedHands': typeof import('~icons/openmoji/folded-hands')['default']
-    IconOpenmojifoldedHands: typeof import('~icons/openmoji/folded-hands')['default']
-    IconOpenmojiFoldedHands: typeof import('~icons/openmoji/folded-hands')['default']
     IconUiwMenuFold: typeof import('~icons/uiw/menu-fold')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
