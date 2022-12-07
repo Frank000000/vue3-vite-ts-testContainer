@@ -15,6 +15,7 @@
       <icon-openmoji:folded-hands />
       <icon-fa-beer style="color: orange" />
     </div>
+    <g-dropdown style="margin-top: 30px;" :options="animalOptions"></g-dropdown>
   </div>
 
 </template>
@@ -23,6 +24,23 @@
 import { isBoolean, testJs } from '../../utils'
 import { s_button } from 'selleri-ui'
 import { toArray } from 'rafi-utils'
+import {ref} from 'vue'
+
+const animalOptions = ref()
+animalOptions.value = [
+  {
+    title: 'mouse',
+    pkid: '1'
+  },
+  {
+    title: 'dog',
+    pkid: '2'
+  },
+  {
+    title: 'cat',
+    pkid: '3'
+  }
+]
 
 // test 'rafi-utils'
 const obj = {
